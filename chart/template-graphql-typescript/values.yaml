@@ -3,8 +3,10 @@
 # Declare variables to be passed into your templates.
 global: {}
 
+serviceUrl: "inventory-management-svc:80"
+
 replicaCount: 1
-logLevel: "debug"
+logLevel: "info"
 
 image:
   repository: replace
